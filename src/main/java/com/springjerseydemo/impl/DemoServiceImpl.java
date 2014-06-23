@@ -1,10 +1,9 @@
 package com.springjerseydemo.impl;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
 import com.springjerseydemo.model.Demo;
 import com.springjerseydemo.service.DemoService;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
 @Component
 @Qualifier("demoService")
